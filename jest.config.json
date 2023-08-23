@@ -1,0 +1,9 @@
+{
+    "bail": 1,
+    "verbose": true,
+    "preset": "jest-puppeteer",
+    "moduleFileExtensions": [
+        "js",
+        "html"
+      ]
+  }

@@ -1,0 +1,8 @@
+services:
+  atlas-api:
+    build: .
+    environment:
+      PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: true
+      DISPLAY: :99
+    ports:
+      - 3000:3000
