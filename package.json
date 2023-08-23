@@ -1,22 +1,16 @@
 {
   "name": "ejercicio-be-fabricio-palavecino",
   "version": "1.0.0",
-  "description": "Desde Atlas les enviamos a nuestros usuarios, una vez por mes, información acerca de sus comprobantes emitidos. No tenemos una API o un webservice de AFIP el cual interactuar, entonces tenemos que hacer esto manualmente scrappeando sus comprobantes emitidos.",
   "main": "index.js",
   "scripts": {
     "dev": "NODE_ENV=development nodemon src/index.js",
     "test": "jest --watch"
   },
   "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/heyatlas/ejercicio-be-fabricio-palavecino.git"
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/heyatlas/ejercicio-be-fabricio-palavecino/issues"
-  },
-  "homepage": "https://github.com/heyatlas/ejercicio-be-fabricio-palavecino#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
